@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "ant-design-vue": "^2.1.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
@@ -28,5 +29,15 @@
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2"
+  },
+  "prettier": {
+    "eslintIntegration": true,
+    "stylelintIntegration": true,
+    "singleQuote": true,
+    "semi": false,
+    "insertPragma": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "endOfLine": "auto"
   }
 }
